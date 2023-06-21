@@ -34,7 +34,7 @@ const Header = () => {
           
         </div>
       </div>
-      <div className="nav-area">
+      <div className="nav-area" style={{ display: 'flex', justifyContent: 'center' }}>
         <Navbar />
       </div>
     </header>
