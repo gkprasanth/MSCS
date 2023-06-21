@@ -79,27 +79,17 @@ function BarChart() {
     {
       label: 'Dataset 1',
       data: count,
-      backgroundColor: '#00abad',
+      backgroundColor: '#9cb2d6',
     },
     
   ],
 };
 
-  return <div
-    style={{
-        width: "70vw"
-    }}
-  >
-<Bar options={options} data={data} />
+  return <Bar options={options} data={data} />
     
-    <div style={{
-      width: '70%',
-    }} >
-    <PieChart />
-    </div>
-    <StateSocieties/>
+   
     
-  </div>
+  
 }
 
 export default BarChart;

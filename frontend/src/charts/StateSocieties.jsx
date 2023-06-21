@@ -57,21 +57,12 @@ function StateSocieties() {
   ],
 };
 
-  return <div
-    style={{
-        width: "70vw"
-    }}
-  >
-<Bar options={options} data={data} />
+  return <Bar options={options} data={data} />
     
-    <div style={{
-      width: '70%',
-    }} >
     
-    </div>
 
     
-  </div>
+  
 }
 
 export default StateSocieties;
